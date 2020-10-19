@@ -10,5 +10,4 @@ kubectl get pod -l app=postgres  -o jsonpath="{.items[0].metadata.name}"
 
 
 kubectl exec postgres-5ff6f99cc-d6lfd --stdin --tty --psql -U postgres
-
-test
+testing
